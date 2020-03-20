@@ -1,0 +1,5 @@
+postgresql:
+  driverClass: "${POSTGRESQL_DRIVER_CLASS:org.postgresql.Driver}"
+  datasourceUrl: "${POSTGRESQL_DATASOURCE_URL:jdbc:postgresql://localhost:5432/postgres}"
+  datasourceUsername: "${POSTGRESQL_DATASOURCE_USERNAME:postgres}"
+  datasourcePassword: "${POSTGRESQL_DATASOURCE_PASSWORD:root}"
